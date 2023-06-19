@@ -3,7 +3,7 @@
   <div class="node-item" [attr.data-id]="node.id" [attr.id]="'node-'+node.id">
     
     <div class="node-title" (click)="node.isExpanded=!node.isExpanded">
-      {{node.children.length ? (node.isExpanded?'-&nbsp;':'+') : '&nbsp;&nbsp;&nbsp;'}} &nbsp;&nbsp;&nbsp; {{node.id}} <span class="item-notes"> ({{node.children.length}}{{node.children.length?', expanded: ' + !!node.isExpanded:''}})</span>
+      sdksjdksjdkjs {{node.children.length ? (node.isExpanded?'-&nbsp;':'+') : '&nbsp;&nbsp;&nbsp;'}} &nbsp;&nbsp;&nbsp; {{node.id}} <span class="item-notes"> ({{node.children.length}}{{node.children.length?', expanded: ' + !!node.isExpanded:''}})</span>
     </div>
 
     <div *ngIf="node.isExpanded && node.children.length" class="node-children"
